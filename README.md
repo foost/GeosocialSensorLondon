@@ -40,11 +40,11 @@ Python Jupyter notebook which computes TF-IDF scores
 
 Python Jupyter notebook which analyses the TF-IDF scores and socio-demographics
 
-*/**.npy*
+*\*.npy*
 
 several files containing intermediary results (numpy arrays of the TF-IDF scores)
 
-*Flickr/**.csv and Twitter/**.csv*
+*Flickr\*.csv and Twitter\*.csv*
 
 several files containing results of the TF-IDF scores analysis
 
