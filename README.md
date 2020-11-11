@@ -72,3 +72,6 @@ results for sentiments and socio-demographics at MSOA level
 
 Jupyter Python notebook which analysis sentiments for spatial pattern and changes over time
 
+*environment.yml* 
+
+Miniconda environment file
