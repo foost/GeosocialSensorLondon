@@ -528,7 +528,7 @@ if __name__ == '__main__':
     import numpy as np
     import psycopg2
 
-    conn = psycopg2.connect("dbname='postgres' user='postgres' password='postGres' host='127.0.0.1' port='5432'")
+    conn = psycopg2.connect("")
     cur = conn.cursor()
     cur.execute("select tweet_id, tweet_text from london_twitter_v3_4326 where tweet_lang='en' and bot is not True and sent_vader is Null")
     tw_texts_en = cur.fetchall()
